@@ -12,9 +12,10 @@ bot.command("start", async (ctx) => {
   const keyboard = {
     inline_keyboard: [
       [{ text: "🔘 Ask AI 📊", web_app: { url: "https://dnauapp.vercel.app/" } }],  // 게임 링크 수정
-      // [{ text: "🔘 Follow on X 🐦", url: "https://x.com/Judo_Shiba" }],
-      // [{ text: "🔘 Join the Pond 🐡", url: "https://t.me/BarbieDogeElonM" }],
-      // [{ text: "🔘 Visit Website 🌐", url: "https://www.karateinu.xyz" }],
+      [{ text: "🌐 Go Website 🧭", url: "https://dnau.it.com" }],
+      [{ text: "🐦 Join Twitter 🧵", url: "https://x.com/AIDatanaut" }],
+      [{ text: "📘 Read Docs 📂", url: "https://dnau-ai.gitbook.io/dnau-ai-docs/" }],
+      [{ text: "💬 Join Community 📢", url: "https://t.me/dnauAiofficial" }],
       // [{ text: "🔘 Read Master book 📖", url: "https://www.karateinu.xyz" }],
     ],
   };
